@@ -1,12 +1,16 @@
 
-#include<stdio.h>
-#include<windows.h>
-
-int main()
-{   
-    Beep(1000, 700);
-
-
-    return 0;
-
+#include<dos1.h>
+ 
+main()
+{
+   int a;
+ 
+   for ( a = 200 ; a <= 1000 ; a = a + 20 )
+   {
+      sound(a);
+      delay(25);
+   }
+   nosound();
+ 
+   return 0;
 }
