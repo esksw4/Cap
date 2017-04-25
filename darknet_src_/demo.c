@@ -46,6 +46,7 @@ void *fetch_in_thread(void *ptr)
     return 0;
 }
 
+////////////////////////////////////////////////////WORK ON HERE
 void *detect_in_thread(void *ptr)
 {
     float nms = .4;
